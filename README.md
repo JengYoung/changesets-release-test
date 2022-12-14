@@ -79,3 +79,10 @@ changesets now provides @changesets/action@v1, which creates a pull request with
 see: [Changesets Release Action](https://github.com/changesets/action)
 
 and pnpm also provides workflow code: [Using Changesets with pnpm](https://pnpm.io/using-changesets)
+
+if you write workflow correctly, then PR is automatically created.
+LIKE THIS BELOW:
+
+<img width="732" alt="image" src="https://user-images.githubusercontent.com/78713176/207504503-aa468f81-4dc3-46f7-b2ce-f39838c1173d.png">
+
+when you update changeset version, then changeset will update PR
