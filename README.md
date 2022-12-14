@@ -71,3 +71,11 @@ Editing the summary or package bump types is completely safe. You can even write
 You can, but you should be aware this will remove the intent to release communicated by the changeset, and should be done with caution.
 
 ---
+
+## CICD
+
+changesets now provides @changesets/action@v1, which creates a pull request with all of the package versions updated and changelogs updated and when there are new changesets on your configured baseBranch, the PR will be updated.
+
+see: [Changesets Release Action](https://github.com/changesets/action)
+
+and pnpm also provides workflow code: [Using Changesets with pnpm](https://pnpm.io/using-changesets)
