@@ -1,5 +1,13 @@
 # docs
 
+## 1.1.1
+
+### Patch Changes
+
+- added readme for test changelog changes
+- Updated dependencies
+  - ui@1.1.0
+
 ## 1.1.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # eslint-config-custom
 
+## 2.0.0
+
+### Major Changes
+
+- test changeset
+
 ## 1.1.0
 
 ### Minor Changes
