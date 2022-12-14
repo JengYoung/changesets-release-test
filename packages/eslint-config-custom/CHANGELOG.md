@@ -1,5 +1,11 @@
 # eslint-config-custom
 
+## 3.0.0
+
+### Major Changes
+
+- 0cce372: test update PR
+
 ## 2.1.0
 
 ### Minor Changes
