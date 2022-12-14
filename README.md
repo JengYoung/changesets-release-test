@@ -27,6 +27,16 @@ pnpm install
 
 update the lockfile and rebuild packages.
 
+### generate version tag
+
+If you don't wanna publish it (like me 😭) You might run additional command for generating version tag.
+
+It is possible to input the command line below.
+
+```shell
+pnpm changeset tag
+```
+
 
 ---
 
@@ -59,3 +69,5 @@ Editing the summary or package bump types is completely safe. You can even write
 ## Can I manually delete changesets?
 
 You can, but you should be aware this will remove the intent to release communicated by the changeset, and should be done with caution.
+
+---
