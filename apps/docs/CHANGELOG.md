@@ -1,5 +1,13 @@
 # docs
 
+## 1.1.2
+
+### Patch Changes
+
+- Updated dependencies [0cce372]
+- Updated dependencies [91af822]
+  - ui@2.0.0
+
 ## 1.1.1
 
 ### Patch Changes

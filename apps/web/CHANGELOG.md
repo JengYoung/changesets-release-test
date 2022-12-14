@@ -1,5 +1,18 @@
 # web
 
+## 1.1.0
+
+### Minor Changes
+
+- 0cce372: test update PR
+- 91af822: test CI
+
+### Patch Changes
+
+- Updated dependencies [0cce372]
+- Updated dependencies [91af822]
+  - ui@2.0.0
+
 ## 1.0.2
 
 ### Patch Changes
