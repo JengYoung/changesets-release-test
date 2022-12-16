@@ -41,7 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       
       - name: push tags if merged
-        if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+        if: ${{ github.event.pull_request.merged }}
         run: |
           pnpm changesets tag
           git config --lobal user.email "young_pallete@naver.com"
