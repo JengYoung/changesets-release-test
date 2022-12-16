@@ -1,5 +1,13 @@
 # docs
 
+## 1.1.5
+
+### Patch Changes
+
+- af8d61b: chore(versioning): test
+- Updated dependencies [af8d61b]
+  - ui@2.0.1
+
 ## 1.1.4
 
 ### Patch Changes
