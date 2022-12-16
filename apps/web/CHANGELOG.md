@@ -1,5 +1,15 @@
 # web
 
+## 2.0.0
+
+### Major Changes
+
+- 226d72f: changeset test
+
+### Patch Changes
+
+- 226d72f: fix(workflow): skip when tags existed
+
 ## 1.2.1
 
 ### Patch Changes
