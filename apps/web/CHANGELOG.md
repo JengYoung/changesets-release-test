@@ -1,5 +1,11 @@
 # web
 
+## 1.1.2
+
+### Patch Changes
+
+- fix(workflow): test for tagging
+
 ## 1.1.1
 
 ### Patch Changes
