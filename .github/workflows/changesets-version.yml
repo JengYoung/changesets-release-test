@@ -1,22 +1,25 @@
 name: Changesets
 
 on:
+  pull_request_target:
+    branches: ['main']
+    types:
+      - closed
   push:
-    branches:
-      - main
+    branches: ['main']
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
-  var: ${{ github.event.pull_request.merged }}
 
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
     steps:
+      - run: echo "${{ github.event.pull_request }} ${{ github.event.pull_request.merged == 'true' }}"
       - name: Checkout Repo
         uses: actions/checkout@v3
 
@@ -42,7 +45,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       
       - name: push tags if merged
-        if: ${{ github.event.pull_request.merged }}
+        if: github.event.pull_request.merged == true
         run: |
           pnpm changesets tag
           git config --lobal user.email "young_pallete@naver.com"
