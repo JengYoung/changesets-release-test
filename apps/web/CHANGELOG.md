@@ -1,5 +1,13 @@
 # web
 
+## 1.1.1
+
+### Patch Changes
+
+- 822a806: fix(workflow): test
+- Updated dependencies [822a806]
+  - ui@2.0.1
+
 ## 1.1.0
 
 ### Minor Changes

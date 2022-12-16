@@ -1,5 +1,13 @@
 # docs
 
+## 1.1.5
+
+### Patch Changes
+
+- 822a806: chore(versioning): test
+- Updated dependencies [822a806]
+  - ui@2.0.1
+
 ## 1.1.4
 
 ### Patch Changes
