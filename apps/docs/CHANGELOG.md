@@ -1,5 +1,12 @@
 # docs
 
+## 1.1.4
+
+### Patch Changes
+
+- bba6e2f: test for fixed workflow
+  - ui@2.0.0
+
 ## 1.1.3
 
 ### Patch Changes
