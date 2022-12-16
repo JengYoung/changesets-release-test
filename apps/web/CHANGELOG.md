@@ -1,5 +1,12 @@
 # web
 
+## 1.1.3
+
+### Patch Changes
+
+- 1b830dd: fix(workflow): test for tagging
+- 1b830dd: a
+
 ## 1.1.2
 
 ### Patch Changes
