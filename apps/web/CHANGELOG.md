@@ -1,5 +1,11 @@
 # web
 
+## 2.1.1
+
+### Patch Changes
+
+- 721c2a1: test skip ci!
+
 ## 2.1.0
 
 ### Minor Changes
