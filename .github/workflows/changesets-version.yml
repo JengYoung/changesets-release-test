@@ -39,3 +39,11 @@ jobs:
           createGithubReleases: false
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      
+      - name: push tags if merged
+        if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+        run: |
+          pnpm changesets tag
+          git config --lobal user.email "young_pallete@naver.com"
+          git config --local user.name "JengYoung"
+          git push origin --tags
