@@ -1,5 +1,11 @@
 # docs
 
+## 1.1.6
+
+### Patch Changes
+
+- fd7297f: fix(workflow): test
+
 ## 1.1.5
 
 ### Patch Changes
