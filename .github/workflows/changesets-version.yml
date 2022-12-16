@@ -1,12 +1,12 @@
 name: Changesets
 
 on:
+  push:
+    branches: ['main']
   pull_request_target:
     branches: ['main']
     types:
       - closed
-  push:
-    branches: ['main']
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -50,6 +50,6 @@ jobs:
         if: github.event.pull_request.merged == true
         run: |
           pnpm changeset tag
-          git config --lobal user.email "young_pallete@naver.com"
+          git config --local user.email "young_pallete@naver.com"
           git config --local user.name "JengYoung"
           git push origin --tags
