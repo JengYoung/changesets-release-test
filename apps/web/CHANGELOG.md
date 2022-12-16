@@ -1,5 +1,15 @@
 # web
 
+## 1.2.0
+
+### Minor Changes
+
+- 87e1cf1: test if always
+
+### Patch Changes
+
+- 87e1cf1: refactor(workflow): test for hasChangesets
+
 ## 1.1.3
 
 ### Patch Changes
