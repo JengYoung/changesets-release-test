@@ -1,5 +1,7 @@
 name: Changesets
 
+# NOTE: Don't use 'skip ui' + changeset. It cause stop CI.
+# skip when doesn't have changesets
 on:
   push:
     branches: ['main']
@@ -12,6 +14,7 @@ env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
 
+# skip when commit's scope name contains 'skip ci'
 jobs:
   release:
     if: "!contains(github.event.commits[0].message, '(skip ci)')"
