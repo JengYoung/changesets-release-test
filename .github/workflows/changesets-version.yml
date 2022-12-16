@@ -55,5 +55,5 @@ jobs:
           git config --local user.email "young_pallete@naver.com"
           git config --local user.name "JengYoung"
 
-      - run: pnpm changeset tag
+      - run: pnpm changeset tag && git push origin --follow-tags --force
         if: ${{ always() }}
