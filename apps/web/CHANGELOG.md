@@ -1,5 +1,11 @@
 # web
 
+## 1.2.1
+
+### Patch Changes
+
+- 121f74a: fix(workflow): skip when tags existed
+
 ## 1.2.0
 
 ### Minor Changes
