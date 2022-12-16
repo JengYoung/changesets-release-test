@@ -1,5 +1,12 @@
 # docs
 
+## 1.1.3
+
+### Patch Changes
+
+- cf20f90: test for pushing tag automation
+  - ui@2.0.0
+
 ## 1.1.2
 
 ### Patch Changes

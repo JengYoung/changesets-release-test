@@ -1,5 +1,11 @@
 # tsconfig
 
+## 2.0.0
+
+### Major Changes
+
+- cf20f90: test for pushing tag automation
+
 ## 1.0.2
 
 ### Patch Changes

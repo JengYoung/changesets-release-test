@@ -1,5 +1,11 @@
 # eslint-config-custom
 
+## 3.1.0
+
+### Minor Changes
+
+- cf20f90: test for pushing tag automation
+
 ## 3.0.0
 
 ### Major Changes
