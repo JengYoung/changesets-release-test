@@ -10,6 +10,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
+  var: ${{ github.event.pull_request.merged }}
 
 jobs:
   release:
