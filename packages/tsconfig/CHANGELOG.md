@@ -1,5 +1,11 @@
 # tsconfig
 
+## 2.0.1
+
+### Patch Changes
+
+- bba6e2f: test for fixed workflow
+
 ## 2.0.0
 
 ### Major Changes
