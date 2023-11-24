@@ -2,13 +2,13 @@ name: Changesets
 
 on:
   pull_request_target:
-    branches: ['main']
+    branches: ["main"]
     types:
       - closed
     paths:
-      - '**/CHANGELOG.md'
-      - '.changeset/**.md'
-      - '**/package.json'
+      - "**/CHANGELOG.md"
+      - ".changeset/**.md"
+      - "**/package.json"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -35,7 +35,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pnpm install
+          pnpm install --frozen-lockfile
 
       - name: Create Release Pull Request
         id: changesets
