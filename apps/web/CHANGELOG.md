@@ -1,5 +1,15 @@
 # web
 
+## 3.0.0
+
+### Major Changes
+
+- c2b0b0d: upgrade pnpm version
+
+### Patch Changes
+
+- aac6d0e: version up test
+
 ## 2.1.1
 
 ### Patch Changes
